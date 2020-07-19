@@ -113,7 +113,6 @@ if __name__ == "__main__":
                      sendEmail(take_email,content)
                      speak("the email has been sent")
             except Exception as e:
-                speak("sorry i am not able to send this email")
-
-
-
+                speak("sorry i am not able to send this imail")
+        elif 'vcs' in query:
+            webbrowser.open("http://www.github.com")
